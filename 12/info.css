@@ -1,0 +1,78 @@
+.info-head{
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+    animation: colorswap 10s linear infinite; 
+}
+@keyframes colorswap{
+    0%{
+        color:black;
+    }
+    10%{
+        color:red;
+    }
+    20%{
+        color:orange;
+    }
+    30%{
+        color:yellow;
+    }
+    40%{
+        color:green;
+    }
+    50%{
+        color: cyan;
+    }
+    60%{
+        color: blue;
+    }
+    70%{
+        color: purple;
+    }
+    80%{
+        color:white;
+    }
+    90%{
+        color:rgba(255, 255, 85, 0.5);
+    }
+    100%{
+        color:rgba(255, 255, 0, 0.5);  
+    }
+}
+.races-rows{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.text-main{
+    padding: 15px 0;
+}
+.phar{
+    padding-top: 15px;
+    padding:15px 0;
+    text-align: center;
+}
+.text{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+}
+.RACE-TITLE{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 15px;
+    padding-top:10px;
+}
+.RACE-DESC{
+    padding: 5px 0;
+    margin: 0 20px;
+    text-align: right;
+}
+.er{
+    text-align: center;
+}
+.end{
+    padding: 15px 0px;
+    margin: 15px 0;
+    text-align: center;
+}

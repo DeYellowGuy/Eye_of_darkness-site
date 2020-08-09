@@ -1,0 +1,131 @@
+*{
+    font-family: 'Krona One', sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: blacktonormal 1s linear 1; 
+}
+@keyframes blacktonormal{
+    from{
+        color: black;
+        background-color: black;
+        filter: brightness(0);
+        -webkit-filter: brightness(0);  
+    }
+    to{
+
+    }
+}
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.header{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.menu-items, .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon-img{
+    width: 75px;
+    height:75px;
+    animation: spin 10s linear infinite; 
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    24%{
+        transform: rotate(360deg);
+    }
+    26%{
+        transform: rotate(0deg);
+    }
+}
+.icon-name{
+    color: rgb(225, 225, 220);
+}
+.menu-item{
+    padding: 0 15px;
+    padding-right: 100px;
+    list-style: none;
+    border: 5px solid rgba(0, 0, 0, 0);
+    transition-property: width, background-color, border-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear, linear, linear;
+}    
+.menu-link{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(225, 225, 220);
+}
+.menu-item:hover{
+    width: 125px;
+    background-color: rgb(0, 0, 0);
+    border-color: cyan;
+}
+.banner{
+    padding: 150px 50px;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.banner-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.8);
+}
+.footer{
+    background-image: url(images/text-here.png);
+    padding: 100px;
+}
+.now{
+    background: yellow;
+    color:black;
+    transition-property: width, background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear, linear, linear;
+}
+.now:hover{
+    width: 125px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+.menu-item:active{
+    background-color: darkorchid;
+}
+.small-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+.description-text{
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    margin:0 50px;
+    text-emphasis: none;  
+    text-align: r; 
+}
+
+.image-desc{
+    width: 75%;
+    height: 75%;
+    padding: 20px 25px;
+    padding-right: 100px;
+    justify-self: left;
+}
+.footer{
+    padding-top: 100px;
+}
+.desc-of-img{
+    padding:10px;
+}

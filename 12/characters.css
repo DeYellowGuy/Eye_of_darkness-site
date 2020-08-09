@@ -1,0 +1,47 @@
+.racesandmore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgba(0, 0, 0, 0);
+    border-radius: 0%;
+    border-color: rgba(0, 0, 0, 0);
+}
+.button-img{
+    width: 75%;
+    height: 75%;
+}
+.racesandmore{
+    text-decoration: none;
+    list-style: none;
+}
+.character{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.name-char1, .name-char2{
+    background-image: url(images/input.png);
+    background-size: 40%;
+    background-repeat: no-repeat; 
+    font-size: 24px;
+    color: yellow;
+    padding: 15px 50px;
+    margin: 0px 20px;
+    
+}
+.text-char{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1% 20%;
+}
+.img-char{
+    justify-self: center;
+    margin: 1% 10%; 
+}
+.secret{
+    filter: brightness(0);
+}
